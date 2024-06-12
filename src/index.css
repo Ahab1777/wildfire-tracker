@@ -66,32 +66,14 @@ body {
   padding: 5px 0;
 }
 
-/* color: 'white', 
-    background: 'grey',
-    padding: '15px 10px',
-    display: 'inline-flex',
-    textAlign: 'center',
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderRadius: '100%',
-    transform: 'translate(-50%, -50%)' */
-
-
-
-
-
-
-
-
-.location-marker {
-  color: white;
-  background: grey;
-  padding: 15 10;
-  display: inline-flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  transform: translate(-50%, -50%);
+.location-marker :hover {
+    cursor:crosshair;
 }
 
+.location-info-close {
+  position: absolute;
+  right: 20px;
+  font-size: 25px;
+  padding: 4px;
+  align-content: center;
+}
